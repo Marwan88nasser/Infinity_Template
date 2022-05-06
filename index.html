@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity</title>
+    <!-- Css Style File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Normalize Css File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start page loading -->
+    <!-- end page loading -->
+    <!-- start settings box -->
+    <div class="settings-box">
+      <div class="setting-icon-conta">
+        <i class="fa-solid fa-gear setting-icon"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-option">
+            <li class="active" data-color="#2196f3"></li>
+            <li data-color="#f44336"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="buttons-container">
+            <button class="yas active" data-background="yas">Yes</button>
+            <button class="no" data-background="no">No</button>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show bullets</h4>
+          <div class="bullets-container">
+            <button class="show active" data-bullets="display">Yes</button>
+            <button class="hidden" data-bullets="hidden">No</button>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Fixed Header</h4>
+          <div class="nav-buttons-container">
+            <button class="fix active" data-nav="fixed">Yes</button>
+            <button class="sta" data-nav="static">No</button>
+          </div>
+        </div>
+        <button class="reset-option">Reset Option</button>
+      </div>
+    </div>
+    <!-- end settings box -->
+    <!-- start navigation bullets -->
+    <div class="navigation-bullets">
+      <ul class="bullets">
+        <li data-link="home">
+          <div class="tooltip">home</div>
+        </li>
+        <li data-link="services">
+          <div class="tooltip">services</div>
+        </li>
+        <li data-link="skills">
+          <div class="tooltip">skills</div>
+        </li>
+        <li data-link="gallery">
+          <div class="tooltip">gallery</div>
+        </li>
+        <li data-link="timeline">
+          <div class="tooltip">timeline</div>
+        </li>
+        <li data-link="reviews">
+          <div class="tooltip">reviews</div>
+        </li>
+        <li data-link="contact">
+          <div class="tooltip">Contact</div>
+        </li>
+      </ul>
+    </div>
+    <!-- end navigation bullets -->
+    <!-- start scroll to top button -->
+    <button class="up">
+      <i class="bx bxs-up-arrow"></i>
+    </button>
+    <!-- end scroll to top button -->
+    <!-- start header -->
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">Infinity</a>
+        <!-- search input -->
+        <div class="cont">
+          <i class="bx bx-x-circle close"></i>
+          <input
+            type="search"
+            name="search-value"
+            class="inp-search"
+            placeholder="Search Here"
+          />
+        </div>
+        <!-- nav links -->
+        <ul class="main-links">
+          <li><a data-link="home">Home</a></li>
+          <li><a data-link="services">Services</a></li>
+          <li><a data-link="skills">Skills</a></li>
+          <li><a data-link="gallery">Gallery</a></li>
+          <li><a data-link="timeline">Timeline</a></li>
+          <li><a data-link="reviews">Reviews</a></li>
+          <li><a data-link="contact">Contact</a></li>
+        </ul>
+        <i class="bx bx-search-alt-2 search"></i>
+        <!-- burger menu -->
+        <button class="burger-menu">
+          <div class="lines"></div>
+        </button>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing page -->
+    <div class="landing-page" id="home">
+      <div class="overlay"></div>
+      <div class="text-content">
+        <h2>
+          We Are <span class="special-title">Infinity,</span> We Are Best.
+        </h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start services  -->
+    <section id="services">
+      <div class="title">
+        <h2 class="def-header">Services</h2>
+      </div>
+      <div class="container">
+        <div class="ser one">
+          <div class="box-icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div class="text-box">
+            <h2>Mobile Application</h2>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit.
+            </p>
+          </div>
+        </div>
+        <div class="ser two">
+          <div class="box-icon">
+            <i class="bx bx-donate-heart"></i>
+          </div>
+          <div class="text-box">
+            <h2>Web Design</h2>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit.
+            </p>
+          </div>
+        </div>
+        <div class="ser three">
+          <div class="box-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="text-box">
+            <h2>Web Development</h2>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit.
+            </p>
+          </div>
+        </div>
+        <div class="ser four">
+          <div class="box-icon"><i class="fa-solid fa-rocket"></i></div>
+          <div class="text-box">
+            <h2>Brand Promotion</h2>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services  -->
+    <!-- start skills -->
+    <div id="skills">
+      <div class="title">
+        <h2 class="def-header">Skills</h2>
+      </div>
+      <div class="container">
+        <div class="our-skills">
+          <div class="skill-box">
+            <div class="skill-name">HTML</div>
+            <div class="skill-progress">
+              <span data-width="90%"></span>
+            </div>
+            <div class="skill-num">90%</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">CSS</div>
+            <div class="skill-progress">
+              <span data-width="85%"></span>
+            </div>
+            <div class="skill-num">85%</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-progress">
+              <span data-width="80%"></span>
+            </div>
+            <div class="skill-num">80%</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Sass</div>
+            <div class="skill-progress">
+              <span data-width="75%"></span>
+            </div>
+            <div class="skill-num">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end skills -->
+    <div id="gallery">
+      <div class="title">
+        <h2 class="def-header">Gallery</h2>
+      </div>
+      <div class="gallery-content">
+        <div class="container">
+          <div class="images-box">
+            <div class="content-img">
+              <img src="images/gallery-1.jpg" alt="gallery one" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-2.jpg" alt="gallery two" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-3.jpg" alt="gallery three" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-4.jpg" alt="gallery four" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-5.jpg" alt="gallery five" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-6.jpg" alt="" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-7.jpg" alt="" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-8.jpg" alt="" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-9.jpg" alt="" />
+            </div>
+            <div class="content-img">
+              <img src="images/gallery-10.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start timeline -->
+    <div id="timeline">
+      <div class="title">
+        <div class="def-header">timeline</div>
+      </div>
+      <div class="skw"></div>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year first-yer">2020</div>
+          <div class="left first-left">
+            <div class="content">
+              <h3>Frontend Developer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                ullam nesciunt eaque earum necessitatibus alias amet consectetur
+                adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right first-right">
+            <div class="content">
+              <h3>Backend Developer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                ullam nesciunt eaque earum necessitatibus alias amet consectetur
+                adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year second-yer">2021</div>
+          <div class="left left-side">
+            <div class="content">
+              <h3>Fullstack Developer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                ullam nesciunt eaque earum necessitatibus alias amet consectetur
+                adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="left left-side">
+            <div class="content">
+              <h3>UI-UX Designer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                ullam nesciunt eaque earum necessitatibus alias amet consectetur
+                adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right right-side">
+            <div class="content">
+              <h3>Ios Developer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                ullam nesciunt eaque earum necessitatibus alias amet consectetur
+                adipisicing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start Reviews  -->
+    <div id="reviews">
+      <div class="title">
+        <h2 class="def-header">Reviews</h2>
+      </div>
+      <div class="reviews-ground">
+        <div class="overlay-rev"></div>
+        <div class="container">
+          <div class="reviews-content">
+            <div class="rev-number"></div>
+            <div class="cus-reviews">
+              <div>
+                <img src="images/rev-1.jpg" alt="" />
+                <h3>Josh Pigford</h3>
+                <p>
+                  “Efficiently showing our requirements has led to highly
+                  functional, well-designed products that our clients love”.
+                </p>
+              </div>
+              <div>
+                <img src="images/rev-3.jpg" alt="" />
+                <h3>Meagan Timney</h3>
+                <p>
+                  “Interactive prototypes help us learn quickly and iterate, so
+                  that we can create great products”.
+                </p>
+              </div>
+              <div>
+                <img src="images/rev-2.jpg" alt="" />
+                <h3>Kevin Betts</h3>
+                <p>
+                  “We would recommend Enable for their highly intuitive and
+                  advanced rebate management software, their second to none”.
+                </p>
+              </div>
+              <div>
+                <img src="images/rev-4.jpg" alt="" />
+                <h3>Kacie Conroy</h3>
+                <p>
+                  “Efficiently showing our requirements has led to highly
+                  functional, well-designed products that our clients love”.
+                </p>
+              </div>
+            </div>
+            <div class="controals">
+              <span class="prev">Previous</span>
+              <ul class="indicators">
+                <li data-index="1"></li>
+                <li data-index="2"></li>
+                <li data-index="3"></li>
+                <li data-index="4"></li>
+              </ul>
+              <span class="next">next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Reviews  -->
+    <!-- start contact us  -->
+    <div id="contact">
+      <div class="title">
+        <h2 class="def-header">contact</h2>
+      </div>
+      <div class="contact-content">
+        <div class="overlay"></div>
+        <div class="container">
+          <form action="">
+            <div class="left">
+              <div class="input-control">
+                <label for="name-inp">Username</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="name-inp"
+                  placeholder="Your Name"
+                />
+                <i class="bx bxs-check-circle correct"></i>
+                <i class="fa-solid fa-circle-exclamation warning"></i>
+                <small></small>
+              </div>
+              <div class="input-control">
+                <label for="phone-inp">Phone</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone-inp"
+                  placeholder="Phone Number"
+                />
+                <i class="bx bxs-check-circle correct"></i>
+                <i class="fa-solid fa-circle-exclamation warning"></i>
+                <small></small>
+              </div>
+              <div class="input-control">
+                <label for="email-inp">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email-inp"
+                  placeholder="Your Email"
+                />
+                <i class="bx bxs-check-circle correct"></i>
+                <i class="fa-solid fa-circle-exclamation warning"></i>
+                <small></small>
+              </div>
+              <div class="input-control">
+                <label for="subject-inp">Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject-inp"
+                  placeholder="subject"
+                />
+                <i class="bx bxs-check-circle correct"></i>
+                <i class="fa-solid fa-circle-exclamation warning"></i>
+                <small></small>
+              </div>
+            </div>
+            <div class="right">
+              <div class="input-control">
+                <label for="text-massage">Issue</label>
+                <textarea
+                  name="massage"
+                  id="text-massage"
+                  placeholder="Your Massage"
+                ></textarea>
+                <i class="bx bxs-check-circle correct"></i>
+                <i class="fa-solid fa-circle-exclamation warning"></i>
+                <small></small>
+              </div>
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end contact us  -->
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="details">
+          <h2>Infinity</h2>
+          <p>Our Social Media</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#home">
+              <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="create-by">
+          <p>© 2022 <span>Infinity</span> all right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- javascript file -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
